@@ -10,7 +10,9 @@ except:
 try:
     import matplotlib.pyplot as plt
 except:
-    print("Somehow you don't have matplotlib, please reinstall python")
+    print("Somehow you don't have matplotlib, please install with `pip install matplotlib`")
+    print("or whatever you use to install python modules")
+    exit(1)
 
 def main():
     n_cpus = 3
