@@ -4,8 +4,8 @@ To run the simulator, execute main.py. To edit the simulation you can modify the
 
 # Preqrequisites
 
-One prerequisite for the visualizer part of this project is the terminaltables module to visualize what the CPUs are executing at a given time. To install, execute the command below, or whatever you use to install python modules.
+There are two prerequisites for the visualizer part of this project. The first is the terminaltables module to visualize what the CPUs are executing at a given time and matplotlib to visualize the misses of each algorithm. To install, execute the command below, or whatever you use to install python modules.
 
 ```bash
-pip install terminaltables
+pip install terminaltables matplotlib
 ```
